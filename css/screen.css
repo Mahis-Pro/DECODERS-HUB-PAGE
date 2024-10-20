@@ -1,0 +1,99 @@
+/* JS CLasslist Style Goes Here */
+.open{
+  left: 0px !important;
+}
+
+/* SiDEBAR STYLE GOES HERE */
+
+@media (max-width:787px) {
+  header nav{
+    display: none;
+  }
+  #sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: -200vw;
+    top: 0px;
+    width:100dvw;
+    height: 100dvh;
+    background-color: #040404fb;
+    z-index: 3;
+    gap: 80px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+  .sidebar-sec1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  } 
+  .sidebar-sec1 h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+  .sidebar-sec2{
+    margin-left: 50px;
+  }
+  .sidebar-sec2 a img{
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 40px;
+    margin-right: 40px;
+  }
+  .closenav{
+    margin-left: 30px;
+    color: #f8f8ff;
+    height: 20px;
+    padding: 10px 10px 20px 10px;
+}
+  .closenav p{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+.closenav p span{
+    color: #f8f8ff;
+    font-size: 40px;
+    margin-right: -10px;
+
+}
+header{
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+.menubtn{
+  display: block;
+}
+.menubtn span{
+  font-size: 40px;
+}
+
+
+}
+/* HERO SECTION STYLE HERE NOW */
+@media (max-width:787px) {
+.hero-img{
+  display: none;
+}
+.hero-text{
+  width: 100vw;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+}
+
+
